@@ -16,31 +16,31 @@ app.get('/bacheca', (req, res) => {
         {
             title: "Ciambellone soffice",
             content: "Un dolce classico della tradizione italiana, perfetto per la colazione o la merenda.",
-            image: "http://localhost:3000/img/ciambellone.jpeg",
+            image: "./img/ciambellone.jpeg",
             tags: ["dolce", "colazione", "tradizione", "soffice", "fatto in casa"]
         },
         {
             title: "Cracker alla barbabietola",
             content: "Croccanti e gustosi, questi cracker alla barbabietola sono perfetti per un aperitivo sano e colorato.",
-            image: "http://localhost:3000/img/cracker_barbabietola.jpeg",
+            image: "./img/cracker_barbabietola.jpeg",
             tags: ["snack", "barbabietola", "croccante", "sano", "antipasto"]
         },
         {
             title: "Pane fritto dolce",
             content: "Una ricetta semplice e golosa, ideale per riutilizzare il pane avanzato in modo creativo e delizioso.",
-            image: "http://localhost:3000/img/pane_fritto_dolce.jpeg",
+            image: "./img/pane_fritto_dolce.jpeg",
             tags: ["dolce", "fritto", "riciclo", "tradizione", "facile"]
         },
         {
             title: "Pasta alla barbabietola",
             content: "Un primo piatto colorato e originale con il gusto dolce della barbabietola che sorprende il palato.",
-            image: "http://localhost:3000/img/pasta_barbabietola.jpeg",
+            image: "./img/pasta_barbabietola.jpeg",
             tags: ["pasta", "barbabietola", "colorato", "vegetariano", "salutare"]
         },
         {
             title: "Torta paesana",
             content: "Un dolce tipico della Lombardia a base di pane raffermo, cacao e latte, dal sapore autentico e ricco.",
-            image: "http://localhost:3000/img/torta_paesana.jpeg",
+            image: "./img/torta_paesana.jpeg",
             tags: ["dolce", "pane", "tradizione", "cacao", "rustico"]
         }
     ];
